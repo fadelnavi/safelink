@@ -131,7 +131,7 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "http://www.akani.me/2018/02/6-diet-that-can-be-healthful-your-body.html?url=" + encryptedUrl;
+            a_to_ve[i].href = "http://www.akani.me/p/safelink-akanime.html?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
             a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
