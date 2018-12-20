@@ -1,5 +1,5 @@
 var wpsafelink = "https://safe.kesehatanku.us/safe.php?url=";
-var domain = ["prefiles.com","nitroflare.com","rapidgator.net","novafile.com","ul.to","turbobit.net","openload.co","uploadrocket.net","filescdn.com","alfafile.net","mediafire.com","kotakajaib.me","subscene.com","drive.google.com","google.com","drive.google.com","ycapi.org","redirector.googlevideo.com","idsly.bid","pasted.co",];
+var domain = ["tools.akani.me","nitroflare.com","rapidgator.net","novafile.com","ul.to","turbobit.net","openload.co","uploadrocket.net","filescdn.com","alfafile.net","mediafire.com","kotakajaib.me","subscene.com","drive.google.com","google.com","drive.google.com","ycapi.org","redirector.googlevideo.com","idsly.bid","pasted.co",];
 var els = document.getElementsByTagName("a"); 
 for(var i = 0, l = els.length; i < l; i++) {	
 	var el = els[i]; 
