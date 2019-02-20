@@ -60,7 +60,7 @@ function showurl(datajson){
 			no++;
 		}
 		if (check == false) {
-			linktag[i].href = links[randindex] + setting.path + aesCrypto.encrypt(convertstr(linktag[i].href.replace('https://y.u.i.e.n.c.r.y.p.t=','https://web.fadel.me/download.php?x=')),convertstr('root'));
+			linktag[i].href = links[randindex] + setting.path + aesCrypto.encrypt(convertstr(decodeURIComponent(linktag[i].href.replace('https://y.u.i.e.n.c.r.y.p.t','https://web.fadel.me/download.php?x'))),convertstr('root'));
 			linktag[i].rel = "nofollow";
 			linktag[i].target = "_blank";
 		}
